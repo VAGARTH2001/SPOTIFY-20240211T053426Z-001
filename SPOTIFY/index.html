@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicPlayer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="scrolbar.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="home border">
+          <img class="invert" src="spotify.svg" alt="" />
+          <ul>
+            <li><img class="invert" src="home.svg" alt="" />Home</li>
+            <li><img class="invert" src="search.svg" alt="" />Search</li>
+          </ul>
+        </div>
+        <div class="library border">
+          <div class="fu">
+            <div class="folder">
+              <img class="invert" src="folder.svg" alt="" /> Your Library
+            </div>
+            <div class="fui">
+              <img class="invert" src="plus.svg" alt="" />
+            </div>  
+          </div>
+          <div class="songslist">
+           <ul>
+               
+           </ul>
+          </div>
+        </div>
+          
+      </div>
+      <div class="right border">
+        <div class="header flex">
+          <div class="Himg flex">
+            <div class="hamburger">
+              <img class="invert" src="hamburger.svg" alt="">
+            </div>
+            <div class="cursors">
+              <img class="invert" src="left.svg" alt="" />
+            <img class="invert" src="right.svg" alt="" />
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="b1">Sign up</button>
+            <button class="b2">Log in</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylists">
+          <h2 class="h">Spotify Playlists</h2>
+          <div class="cardcontainer">
+                <div class="cards">
+              <img
+                class="singer"
+                src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+                alt=""
+              />
+              <h3>lofi beats</h3>
+              <p>chill beats, lofi vibes, new tracks every week...</p>
+              <img class="playbutton" src="playbutton.svg" alt="" />
+                </div>
+
+                <div class="cards">
+              <img
+                class="singer"
+                src="https://i.scdn.co/image/ab67706f00000002af29338e415c87776e74a574"
+                alt=""
+              />
+              <h3>Today’s Top Hits</h3>
+              <p>Benson Boone is on top of the Hottest 50!</p>
+              <img class="playbutton" src="playbutton.svg" alt="" />
+                </div>
+
+                  <div class="cards">
+              <img
+                class="singer"
+                src="https://i.scdn.co/image/ab67706f00000002d771dc645afe9b87978b1d3e"
+                alt=""
+              />
+              <h3>lofi beats</h3>
+              <p>chill beats, lofi vibes, new tracks every week...</p>
+              <img class="playbutton" src="playbutton.svg" alt="" />
+                </div>
+
+                 <div class="cards">
+              <img
+                class="singer"
+                src="https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                alt=""
+              />
+              <h3>lofi beats</h3>
+              <p>chill beats, lofi vibes, new tracks every week...</p>
+              <img class="playbutton" src="playbutton.svg" alt="" />
+                    </div>
+
+                       <div class="cards">
+              <img class="singer"
+              src=https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/4PULA4EFzYTrxYvOVlwpiQ/en"
+              alt="">
+              <h3>lofi beats</h3>
+              <p>chill beats, lofi vibes, new tracks every week...</p>
+              <img class="playbutton" src="playbutton.svg" alt="" />
+                      </div>
+                      <div class="cards">
+                        <img class="singer"
+                        src=https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/4PULA4EFzYTrxYvOVlwpiQ/en"
+                        alt="">
+                        <h3>lofi beats</h3>
+                        <p>chill beats, lofi vibes, new tracks every week...</p>
+                        <img class="playbutton" src="playbutton.svg" alt="" />
+                                </div>
+         </div>  
+           
+           
+          </div>
+
+                   <div class="musicplayer flex">
+                    <div class="seekbar">
+                       <div class="circle">
+                        
+                       </div>
+                    </div>
+                    <div class="songinfo"></div>
+                    <div class="songduration">00:00/00:00</div>
+                   <img class="invert" id="previous" src="previous.svg" alt="">
+                   <img  class="invert" id="play" src="play.svg" alt="">
+                   <img  class="invert" id="next" src="Next.svg" alt="">
+                   </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

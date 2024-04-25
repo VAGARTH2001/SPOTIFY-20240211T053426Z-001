@@ -1,0 +1,41 @@
+
+
+
+.cardcontainer::-webkit-scrollbar {
+    width: 12px;
+}
+
+.cardcontainer::-webkit-scrollbar-track {
+    background-color: #2d2d2d; 
+}
+
+.cardcontainer::-webkit-scrollbar-thumb {
+    background-color: #555; 
+    border-radius: 6px;
+}
+
+.cardcontainer::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /
+}
+
+
+
+
+
+
+.songslist::-webkit-scrollbar {
+    width: 12px;
+}
+
+.songslist::-webkit-scrollbar-track {
+    background-color: #2d2d2d; 
+}
+
+.songslist::-webkit-scrollbar-thumb {
+    background-color: #555; 
+    border-radius: 6px;
+}
+
+.songslist::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /
+}

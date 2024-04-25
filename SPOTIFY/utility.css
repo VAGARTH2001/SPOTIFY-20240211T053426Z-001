@@ -1,0 +1,27 @@
+.border{
+    
+    border-radius: 9px;
+}
+.invert{
+   filter: invert(1);
+}
+.flex{
+    display: flex;
+}
+.b{
+    border: 2px solid red;
+}
+.bold{
+    font-size: 20px;
+    font-weight: bold;
+}
+.list{
+    list-style-type: none;
+}
+.anchor{
+    text-decoration: none;
+    font-size: 15px;
+   font-weight: bold;
+   color: gray;
+  padding-top: 20px;
+}
